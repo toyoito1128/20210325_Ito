@@ -1,0 +1,77 @@
+a{
+  text-decoration-line: none;
+}
+
+
+.header img{
+  width: 100px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: right;
+
+}
+
+.header-nav-list{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.header-nav-item a{
+  color: rgb(165, 165, 165);
+  margin-right: 30px;
+}
+
+.ad{
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.ad img{
+  width: 60%;
+  position: absolute;
+  left: 40%;
+}
+
+.ad-catchcopy{
+  position: absolute;
+  top: 50px;
+  left: 22%;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
+  color: rgb(165, 45, 135);
+  line-height: 50px;
+}
+
+.growth{
+  color: rgb(75, 150, 207);
+}
+
+.ad-outline{
+  position: absolute;
+  top: 200px;
+  left: 22%;
+}
+
+.ad-commit{
+  color: rgb(165, 45, 135);
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.ad-commit span{
+  color: rgb(75, 150, 207);
+  font-weight: bolder;
+}
+
+.ad-detail{
+  font-family: 'Arial Narrow Bold';
+  color: rgb(165, 165, 165) ;
+  font-size: 13px;
+  line-height: 20px;
+}
