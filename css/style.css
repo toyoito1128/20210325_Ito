@@ -4,7 +4,7 @@ a{
 
 
 .header img{
-  width: 100px;
+  width: 150px;
 }
 
 .header-nav{
@@ -28,7 +28,7 @@ a{
 
 .ad{
   width: 100%;
-  height: 400px;
+  height: 600px;
   margin-top: 20px;
   position: relative;
 }
@@ -41,12 +41,12 @@ a{
 
 .ad-catchcopy{
   position: absolute;
-  top: 50px;
-  left: 20%;
+  top: 100px;
+  left: 15%;
   font-family: 'Architects Daughter', cursive;
-  font-size: 40px;
+  font-size: 70px;
   color: rgb(165, 45, 135);
-  line-height: 50px;
+  line-height: 100px;
 }
 
 .growth{
@@ -55,14 +55,15 @@ a{
 
 .ad-outline{
   position: absolute;
-  top: 200px;
-  left: 20%;
+  top: 300px;
+  left: 15%;
 }
 
 .ad-commit{
   color: rgb(165, 45, 135);
-  margin-bottom: 10px;
+  margin: 30px 0px;
   font-weight: bolder;
+  font-size: 25px;
 }
 
 .ad-commit span{
@@ -71,10 +72,11 @@ a{
 }
 
 .ad-detail{
+  margin-top:-20px;
   font-family: 'Arial Narrow Bold';
   color: rgb(165, 165, 165) ;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .news-block{
@@ -95,18 +97,19 @@ a{
 .news-block p{
   font-family:'Architects Daughter', cursive;
   color: rgb(165, 45, 135);
+  font-size: 20px;
   padding: 10px 0px;
   display: inline-block;
   text-align: left;
 }
 
 .news h2{
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
 .news dl{
-  font-size: 13px;
+  font-size: 15px;
   width: 520px;
   margin:30px auto;
   border-top: solid rgb(165, 165, 165);
@@ -139,7 +142,7 @@ dl a{
 
 .about-block{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: rgb(229, 226, 226);
   color: rgb(165, 164, 164) ;
   position: relative;
@@ -153,17 +156,19 @@ dl a{
 .about-head p{
   font-family:'Architects Daughter', cursive;
   color: rgb(165, 45, 135);
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
 .about-head h2{
   color: rgb(99, 99, 99);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .about-body{
   display: flex;
   justify-content: space-between;
+  margin: 0px 150px;
 
 }
 
@@ -174,73 +179,73 @@ dl a{
 }
 
 .about-detail p{
-  line-height: 20px;
+  line-height: 30px;
   margin-left: 100px;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .about-detail img{
-  width: 250px;
+  width: 350px;
   margin-left: 60px;
 }
 
 .service-block{
   width: 100%;
-  height: 400px;
+  height: 450px;
   margin:  0px;
-  padding: 20px 0px;
 }
 
 .service-head{
-  /* position: relative; */
-  /* left: 120px; */
   line-height: 30px;
-  /* margin-left: 130px; */
-  padding-left: 130px;
+  padding-left: 250px;
 }
 
 .service-head p{
   font-family:'Architects Daughter', cursive;
   color: rgb(165, 45, 135);
+  font-size: 20px;
 }
 
 .service-head h2{
   color: rgb(99, 99, 99);
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .service-body{
-  margin: 20px 130px;
-  /* padding:0px 80px 0px 80px; */
-  width: 73%;
-  height: 300px;
-  /* position: relative; */
-  /* left:120px; */
+  margin: 0px 250px;
+  width: 64%;
+  height: 320px;
   display: flex;
-  background-color: rgb(165, 45, 135) ;
+  /* background-color: rgb(165, 45, 135) ; */
   color: white;
 }
 
 .service-body1{
   width: 50%;
-  height: 150px;
-  padding: 20px;
+  height: 100%;
+  /* padding-top: 20px; */
   text-align: center;
+  background-color: rgb(165, 45, 135)
 }
 
 .service-body1 h2{
-  margin: 10px 0px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .service-body1 p{
-  font-size: 14px;
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
   text-align: left;
-  line-height: 18px;
+  line-height: 25px;
 }
 
 .service-body2{
   width: 50%;
-  height: 50%;
+  height: 160px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -248,6 +253,12 @@ dl a{
 
 .service-body img{
   width: 30%;
+}
+
+.service-body1 img{
+  position: relative;
+  top: 30px;
+
 }
 
 .service-body2 img{
@@ -258,16 +269,17 @@ dl a{
 
 .service-body2 h2{
   position: relative;
-  left: 130px;
-  top: -70px;
+  left: 170px;
+  top: -100px;
+  font-size: 20px;
 }
 
 .service-body2 p{
   position: relative;
-  left: 130px;
-  top: -80px;
-  width: 180px;
-  font-size: 12px;
+  left: 170px;
+  top: -100px;
+  width: 250px;
+  font-size: 15px;
   padding-right: 20px;
   line-height: 18px;
   margin-top: 10px;
@@ -275,12 +287,12 @@ dl a{
 
 .service-body2-1{
   background-color: rgb(180, 103, 180);
-  height: 150px;
+  height: 160px;
 }
 
 .service-body2-2{
   background-color: rgb(184, 144, 184);
-  height: 150px;
+  height: 160px;
   width: 100%;
   position: absolute;
   top: 100%;
@@ -288,7 +300,7 @@ dl a{
 
 .blog-block{
   width: 100%;
-  height: 400px;
+  height: 500px;
   padding-top: 20px;
   background-color: rgb(229, 226, 226);
 
@@ -296,29 +308,30 @@ dl a{
 
 .blog-head{
   line-height: 30px;
-  padding-left: 130px;
+  padding-left: 250px;
 }
 
 .blog-head p{
   font-family:'Architects Daughter', cursive;
   color: rgb(165, 45, 135);
+  font-size: 20px;
 }
 
 .blog-head h2{
   color: rgb(99, 99, 99);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .blog-body{
   display: flex;
   justify-content: space-between;
-  margin: 20px 130px;
+  margin: 20px 250px;
 }
 
 .blog{
   width: 30%;
+  height: 300px;
   border-radius: 20px;
-  /* box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.2); */
   background-color: white;
   position: relative;
 }
@@ -353,7 +366,8 @@ dl a{
 
 .blog-tag p{
   display: inline-block;
-  font-size: 12px;
+  margin-top: 30px;
+  font-size: 15px;
 }
 
 .blog-a {
@@ -364,7 +378,7 @@ dl a{
   padding: 10px;
   text-align: center;
   color: rgb(165, 45, 135);
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   border-radius: 30px;
   border-color:rgb(165, 45, 135);
@@ -385,11 +399,12 @@ dl a{
 .company-head p{
   font-family:'Architects Daughter', cursive;
   color: rgb(165, 45, 135);
+  font-size: 20px;
 }
 
 .company-head h2{
   color: rgb(99, 99, 99);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 table {
@@ -408,7 +423,7 @@ table th {
 }
 
 .recruit-block{
-  height: 300px;
+  height: 400px;
   width: 100%;
 }
 
@@ -416,21 +431,32 @@ table th {
   display: flex;
 }
 
-.recruit-img img{
+.recruit-img1{
+  background: url(../img/recruit.png) no-repeat left;
   width: 100%;
-
+  height: 300px;
+  background-size: cover;
 }
 
-.recruit-img p{
+.recruit-img2{
+  background: url(../img/interview.png) no-repeat left;
+  width: 100%;
+  height: 300px;
+  background-size:cover;
+}
+
+.recruit-img1 p,.recruit-img2 p{
   color: white;
   text-align: center;
-  margin-top: -120px;
+  font-size: 25px;
+  margin-top: 130px;
 }
 
 .form{
-  margin-top: -50px;
+  /* margin-top: -50px; */
   text-align: center;
   color: rgb(99, 99, 99);
+  font-size: 20px;
 }
 
 .form-to{
@@ -448,7 +474,7 @@ table th {
   padding: 15px;
   text-align: center;
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   background: linear-gradient(90deg,rgb(252, 3, 177),rgb(153, 2, 115));
   border-radius: 30px;
@@ -472,7 +498,7 @@ footer{
   margin-top: 50px;
   background-color:rgb(233, 233, 233);
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   padding: 5px;
   color: rgb(99, 99, 99);
 }
