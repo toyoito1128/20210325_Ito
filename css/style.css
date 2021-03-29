@@ -2,7 +2,6 @@ a{
   text-decoration-line: none;
 }
 
-
 .header img{
   width: 150px;
 }
@@ -87,10 +86,9 @@ a{
 }
 
 .news{
-  position: absolute;
-  left: 30%;
-  top: 0;
-  margin: 20px 0;
+  width: 50%;
+  margin: 20px auto;
+  padding-bottom: 20px;
   border-bottom: solid rgb(165, 165, 165);
 }
 
@@ -99,36 +97,28 @@ a{
   color: rgb(165, 45, 135);
   font-size: 20px;
   padding: 10px 0px;
-  display: inline-block;
-  text-align: left;
 }
 
 .news h2{
   font-size: 25px;
-
-}
-
-.news dl{
-  font-size: 15px;
-  width: 520px;
-  margin:30px auto;
-  border-top: solid rgb(165, 165, 165);
-  padding-top: 20px;
-  /* border-bottom: solid rgb(165, 165, 165); */
-}
-dt{
-  border-bottom:1px solid #ccc;
-  float:left;
-  padding:10px 5px;
-}
-dd{
-  border-bottom:1px solid #ccc;
-  margin-left:100px;
-  padding:10px 5px;
-}
-
-dd :last-child{
+  padding-bottom: 20px;
   margin-bottom: 20px;
+  border-bottom: solid rgb(165, 165, 165);
+}
+
+.news dl {
+width: 100%;
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
+}
+
+.news dt {
+padding-bottom: 5px;
+display: inline-block;
+}
+
+.news dd{
+  display: inline-block;
 }
 
 dl a{
@@ -142,15 +132,17 @@ dl a{
 
 .about-block{
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-color: rgb(229, 226, 226);
   color: rgb(165, 164, 164) ;
   position: relative;
 }
 
 .about-head{
+  height: 20%;
   text-align: center;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .about-head p{
@@ -167,37 +159,42 @@ dl a{
 
 .about-body{
   display: flex;
-  justify-content: space-between;
-  margin: 0px 150px;
+  width: 80%;
+  height: 80%;
+  margin: 0px auto;
+  padding: 10px 0;
+  box-sizing: border-box;
 
 }
 
 .about-detail{
   text-align: left;
-  width: 50%;
-  margin: 20px 30px;
+  width: 100%;
+  padding: 0px 50px;
 }
 
 .about-detail p{
   line-height: 30px;
-  margin-left: 100px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-detail img{
-  width: 350px;
-  margin-left: 60px;
+  width: 100%;
 }
 
 .service-block{
   width: 100%;
-  height: 450px;
-  margin:  0px;
+  height: 500px;
 }
 
 .service-head{
+  height: 20%;
   line-height: 30px;
-  padding-left: 250px;
+  padding: 20px 0px 0px 250px;
+  width: 100%;
+  box-sizing: border-box;
+
+
 }
 
 .service-head p{
@@ -209,22 +206,18 @@ dl a{
 .service-head h2{
   color: rgb(99, 99, 99);
   font-size: 25px;
-  margin-bottom: 20px;
 }
 
 .service-body{
-  margin: 0px 250px;
-  width: 64%;
-  height: 320px;
+  padding: 0px 250px;
+  height: 80%;
   display: flex;
-  /* background-color: rgb(165, 45, 135) ; */
   color: white;
 }
 
 .service-body1{
   width: 50%;
-  height: 100%;
-  /* padding-top: 20px; */
+  height: 80%;
   text-align: center;
   background-color: rgb(165, 45, 135)
 }
@@ -245,14 +238,12 @@ dl a{
 
 .service-body2{
   width: 50%;
-  height: 160px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  height: 80%;
+  text-align: left;
 }
 
 .service-body img{
-  width: 30%;
+  width: 25%;
 }
 
 .service-body1 img{
@@ -264,38 +255,54 @@ dl a{
 .service-body2 img{
   position: relative;
   left: 20px;
-  top: 10px;
-}
-
-.service-body2 h2{
-  position: relative;
-  left: 170px;
-  top: -100px;
-  font-size: 20px;
-}
-
-.service-body2 p{
-  position: relative;
-  left: 170px;
-  top: -100px;
-  width: 250px;
-  font-size: 15px;
-  padding-right: 20px;
-  line-height: 18px;
-  margin-top: 10px;
+  top: 0px;
 }
 
 .service-body2-1{
+  height: 50%;
+  width: 100%;
   background-color: rgb(180, 103, 180);
-  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .service-body2-2{
-  background-color: rgb(184, 144, 184);
-  height: 160px;
+  height: 50%;
   width: 100%;
-  position: absolute;
-  top: 100%;
+  background-color: rgb(184, 144, 184);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.service-body-text{
+  padding: 20px 20px 20px 30px;
+  text-align: left;
+}
+
+.service-body2-1 h2{
+  font-size: 20px;
+  width: 100%;
+}
+
+.service-body2-1 p{
+  font-size: 15px;
+  line-height: 18px;
+  width: 100%;
+  padding:10px 0px;
+}
+
+.service-body2-2 h2{
+  font-size: 20px;
+  width: 100%;
+}
+
+.service-body2-2 p{
+  font-size: 15px;
+  line-height: 18px;
+  width: 100%;
+  padding:10px 0px;
 }
 
 .blog-block{
@@ -303,7 +310,7 @@ dl a{
   height: 500px;
   padding-top: 20px;
   background-color: rgb(229, 226, 226);
-
+  box-sizing: border-box;
 }
 
 .blog-head{
@@ -336,6 +343,18 @@ dl a{
   position: relative;
 }
 
+.blog-img{
+  height: 60%;
+  width: 100%;
+}
+
+.blog-content{
+  height: 40%;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .blog-img img{
   width: 100%;
   border-radius: 20px 20px 0 0;
@@ -354,24 +373,23 @@ dl a{
 }
 
 .blog-content P{
-  margin: 10px;
   color: rgb(99, 99, 99);
+  line-height: 20px;
+  height: 50%;
+
 }
 
 .blog-tag{
-  margin: 0px 5px;
+  height: 50%;
+  width: 100%;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
-}
-
-.blog-tag p{
-  display: inline-block;
-  margin-top: 30px;
-  font-size: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 
 .blog-a {
-  /* position: relative; */
   width: 120px;
   display: block;
   margin: 30px auto;
@@ -379,7 +397,7 @@ dl a{
   text-align: center;
   color: rgb(165, 45, 135);
   font-size: 15px;
-  text-decoration: none;
+  /* text-decoration: none; */
   border-radius: 30px;
   border-color:rgb(165, 45, 135);
   border-style: solid;
@@ -423,7 +441,7 @@ table th {
 }
 
 .recruit-block{
-  height: 400px;
+  height: 300px;
   width: 100%;
 }
 
@@ -436,6 +454,7 @@ table th {
   width: 100%;
   height: 300px;
   background-size: cover;
+  position: relative;
 }
 
 .recruit-img2{
@@ -443,17 +462,22 @@ table th {
   width: 100%;
   height: 300px;
   background-size:cover;
+  position: relative;
 }
 
 .recruit-img1 p,.recruit-img2 p{
   color: white;
   text-align: center;
   font-size: 25px;
-  margin-top: 130px;
+  /* padding-top: 150px; */
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
 }
 
 .form{
-  /* margin-top: -50px; */
+  margin-top: 50px;
   text-align: center;
   color: rgb(99, 99, 99);
   font-size: 20px;
@@ -470,16 +494,16 @@ table th {
 .form-btn {
   position: relative;
   width: 150px;
-  display: block;
   padding: 15px;
   text-align: center;
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
+  display: block;
+  margin: 10px auto;
   background: linear-gradient(90deg,rgb(252, 3, 177),rgb(153, 2, 115));
   border-radius: 30px;
-  margin: 10px auto;
   box-shadow: 5px 5px rgb(122, 35, 101);
+  color: #fff;
+  font-size: 15px;
+  /* text-decoration: none; */
 }
 
 .form-btn::before {
@@ -491,7 +515,7 @@ table th {
   background-size: cover;
   width: 20px;
   height: 20px;
-  transform: translate(0, -50%);
+  transform: translate(0%, -50%);
 }
 
 footer{
